@@ -669,17 +669,19 @@ a {
   }
 
   .header .navbar {
-    position: absolute;
-    top: 95%;
+    position: fixed;
+    top: 80px;
     background-color: #fff;
     height: calc(100vh - 9rem);
     width: 30rem;
     box-shadow: 0px 20px 14px 0px rgb(0 0 0 / 75%);
-    right: -100%;
+    right: 80px;
+    display: none;
   }
 
   .header .navbar .active {
     right: 3rem;
+   display: block;
   }
 
   .header .navbar a {
