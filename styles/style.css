@@ -129,10 +129,11 @@ a {
   border-bottom: 0.1rem solid transparent;
 }
 
-.header .navbar .active,
+.header .navbar.active,
 .header .navbar a:hover {
   border-color: var(--main-color);
   padding-bottom: 0.5rem;
+  display: block;
 }
 
 .header .buttons button {
@@ -681,7 +682,6 @@ a {
 
   .header .navbar .active {
     right: 3rem;
-   display: block;
   }
 
   .header .navbar a {
